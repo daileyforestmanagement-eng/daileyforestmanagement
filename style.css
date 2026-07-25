@@ -1,1 +1,391 @@
+/* ===================================
+   Dailey Forest Management
+   Professional Website Styles
+=================================== */
 
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    font-family:'Montserrat',sans-serif;
+    color:#2f2f2f;
+    background:#f7f7f4;
+    line-height:1.7;
+}
+
+.container{
+    width:90%;
+    max-width:1200px;
+    margin:auto;
+}
+
+header{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    background:#183d22;
+    box-shadow:0 3px 12px rgba(0,0,0,.2);
+    z-index:1000;
+}
+
+header .container{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px 0;
+}
+
+.logo img{
+    height:70px;
+}
+
+nav ul{
+    list-style:none;
+    display:flex;
+    gap:35px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    font-weight:600;
+    transition:.3s;
+}
+
+nav a:hover{
+    color:#d7b64a;
+}
+
+.hero{
+    margin-top:100px;
+    min-height:88vh;
+    display:flex;
+    align-items:center;
+    text-align:center;
+    color:white;
+    background:
+    linear-gradient(rgba(15,45,20,.65),
+    rgba(15,45,20,.65)),
+    url("images/forest.jpg");
+    background-size:cover;
+    background-position:center;
+}
+
+.hero-content{
+    width:100%;
+}
+
+.hero h1{
+    font-size:58px;
+    font-weight:700;
+    margin-bottom:20px;
+}
+
+.hero p{
+    font-size:22px;
+    max-width:850px;
+    margin:auto;
+    margin-bottom:35px;
+}
+
+.btn{
+    display:inline-block;
+    padding:16px 34px;
+    background:#c8a63d;
+    color:white;
+    border-radius:6px;
+    text-decoration:none;
+    font-weight:700;
+    transition:.3s;
+}
+
+.btn:hover{
+    background:#a98b2f;
+    transform:translateY(-2px);
+}/* ===========================
+   Sections
+=========================== */
+
+section{
+    padding:90px 0;
+}
+
+section h2{
+    text-align:center;
+    font-size:42px;
+    color:#183d22;
+    margin-bottom:25px;
+}
+
+section p.section-intro{
+    max-width:850px;
+    margin:0 auto 60px;
+    text-align:center;
+    color:#555;
+}
+
+/* ===========================
+   About
+=========================== */
+
+.about{
+    background:white;
+}
+
+.about-grid{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:60px;
+    align-items:center;
+}
+
+.about img{
+    width:100%;
+    border-radius:12px;
+    box-shadow:0 10px 25px rgba(0,0,0,.18);
+}
+
+.about h3{
+    font-size:32px;
+    color:#183d22;
+    margin-bottom:20px;
+}
+
+.about p{
+    margin-bottom:18px;
+}
+
+/* ===========================
+   Services
+=========================== */
+
+.services{
+    background:#eef3ee;
+}
+
+.service-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+    gap:30px;
+}
+
+.service-card{
+    background:white;
+    padding:35px;
+    border-radius:12px;
+    box-shadow:0 10px 22px rgba(0,0,0,.08);
+    transition:.3s;
+}
+
+.service-card:hover{
+    transform:translateY(-8px);
+}
+
+.service-card h3{
+    color:#183d22;
+    margin-bottom:18px;
+    font-size:24px;
+}
+
+.service-card p{
+    color:#555;
+}
+
+/* ===========================
+   Gallery
+=========================== */
+
+.gallery{
+    background:white;
+}
+
+.gallery-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    gap:25px;
+}
+
+.gallery img{
+    width:100%;
+    height:260px;
+    object-fit:cover;
+    border-radius:12px;
+    transition:.3s;
+    box-shadow:0 10px 20px rgba(0,0,0,.12);
+}
+
+.gallery img:hover{
+    transform:scale(1.03);
+}
+
+/* ===========================
+   Contact
+=========================== */
+
+.contact{
+    background:#183d22;
+    color:white;
+    text-align:center;
+}
+
+.contact h2{
+    color:white;
+}
+
+.contact p{
+    font-size:18px;
+    margin-bottom:15px;
+}
+
+.contact a{
+    color:#d7b64a;
+    text-decoration:none;
+    font-weight:600;
+}/* ===========================
+   Sections
+=========================== */
+
+section{
+    padding:90px 0;
+}
+
+section h2{
+    text-align:center;
+    font-size:42px;
+    color:#183d22;
+    margin-bottom:25px;
+}
+
+section p.section-intro{
+    max-width:850px;
+    margin:0 auto 60px;
+    text-align:center;
+    color:#555;
+}
+
+/* ===========================
+   About
+=========================== */
+
+.about{
+    background:white;
+}
+
+.about-grid{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:60px;
+    align-items:center;
+}
+
+.about img{
+    width:100%;
+    border-radius:12px;
+    box-shadow:0 10px 25px rgba(0,0,0,.18);
+}
+
+.about h3{
+    font-size:32px;
+    color:#183d22;
+    margin-bottom:20px;
+}
+
+.about p{
+    margin-bottom:18px;
+}
+
+/* ===========================
+   Services
+=========================== */
+
+.services{
+    background:#eef3ee;
+}
+
+.service-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+    gap:30px;
+}
+
+.service-card{
+    background:white;
+    padding:35px;
+    border-radius:12px;
+    box-shadow:0 10px 22px rgba(0,0,0,.08);
+    transition:.3s;
+}
+
+.service-card:hover{
+    transform:translateY(-8px);
+}
+
+.service-card h3{
+    color:#183d22;
+    margin-bottom:18px;
+    font-size:24px;
+}
+
+.service-card p{
+    color:#555;
+}
+
+/* ===========================
+   Gallery
+=========================== */
+
+.gallery{
+    background:white;
+}
+
+.gallery-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    gap:25px;
+}
+
+.gallery img{
+    width:100%;
+    height:260px;
+    object-fit:cover;
+    border-radius:12px;
+    transition:.3s;
+    box-shadow:0 10px 20px rgba(0,0,0,.12);
+}
+
+.gallery img:hover{
+    transform:scale(1.03);
+}
+
+/* ===========================
+   Contact
+=========================== */
+
+.contact{
+    background:#183d22;
+    color:white;
+    text-align:center;
+}
+
+.contact h2{
+    color:white;
+}
+
+.contact p{
+    font-size:18px;
+    margin-bottom:15px;
+}
+
+.contact a{
+    color:#d7b64a;
+    text-decoration:none;
+    font-weight:600;
+}

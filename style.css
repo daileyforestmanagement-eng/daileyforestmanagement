@@ -58,7 +58,11 @@ header .container {
 nav ul {
     list-style: none;
     display: flex;
-    gap: 30px;
+    gap: 18px;
+    flex-wrap: nowrap;
+    margin: 0;
+    padding: 0;
+}
 }
 
 nav a {

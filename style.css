@@ -45,7 +45,7 @@ header .container {
     flex-wrap: nowrap;
     padding: 10px 0;
 }
-}
+
 
 .logo img {
     height: 100px;
@@ -63,7 +63,7 @@ nav ul {
     margin: 0;
     padding: 0;
 }
-}
+
 
 nav a {
     color: white;

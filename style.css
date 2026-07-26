@@ -264,17 +264,26 @@ footer h3 {
    Mobile
 ====================== */
 
+/* ======================
+   Mobile
+====================== */
+
 @media (max-width: 768px) {
+
+    .logo img {
+        height: 70px;
+    }
 
     header .container {
         flex-direction: column;
-        gap: 15px;
+        align-items: center;
+        gap: 10px;
     }
 
     nav ul {
         flex-wrap: wrap;
         justify-content: center;
-        gap: 15px;
+        gap: 12px;
     }
 
     .hero {

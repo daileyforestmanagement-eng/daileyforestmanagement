@@ -48,8 +48,9 @@ header .container {
 
 
 .logo img {
-    height: 100px;
+    height: 80px;
     width: auto;
+
 }
 
 
@@ -58,11 +59,12 @@ header .container {
 nav ul {
     list-style: none;
     display: flex;
-    gap: 18px;
-    flex-wrap: nowrap;
+    gap: 20px;
     margin: 0;
     padding: 0;
+    align-items: center;
 }
+
 
 
 nav a {

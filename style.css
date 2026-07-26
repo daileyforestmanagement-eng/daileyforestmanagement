@@ -46,11 +46,12 @@ header .container {
 }
 
 .logo img {
-    height: 120px;
+    height: 100px;
     width: auto;
 }
-}
-}
+
+
+
 
 nav ul {
     list-style: none;

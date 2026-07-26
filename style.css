@@ -419,3 +419,20 @@ section p.section-intro{
     text-decoration:none;
     font-weight:600;
 }
+/* Force About photo size */
+#about img {
+    max-width: 350px !important;
+    width: 100% !important;
+    height: auto !important;
+    display: block;
+    margin: 0 auto;
+    border-radius: 12px;
+}
+
+/* Force Gallery photo size */
+#gallery img {
+    width: 100% !important;
+    height: 250px !important;
+    object-fit: cover;
+    border-radius: 12px;
+}

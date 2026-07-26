@@ -81,7 +81,12 @@ nav a:hover {
     font-size: 3rem;
     margin-bottom: 20px;
 }
-
+.hero-tagline {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #c9a227;
+    margin-bottom: 20px;
+}
 .hero p {
     max-width: 850px;
     margin: auto;

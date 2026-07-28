@@ -304,7 +304,14 @@ footer h3 {
     .about-grid img {
         max-width: 300px;
     }
+footer a {
+    color: white;
+    text-decoration: none;
+}
 
+footer a:hover {
+    text-decoration: underline;
+}
     section h2 {
         font-size: 2rem;
     }
